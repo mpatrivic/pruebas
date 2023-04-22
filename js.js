@@ -3,13 +3,13 @@ function abrirCerrar(){
     if (element.classList == "disactive"){
         element.classList.remove("disactive");
         element.classList.add("active");
-        document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="C:/Users/Carla/Desktop/WEBS/Menu/cross512.png" />' + '</div>';
+        document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="https://github.com/mpatrivic/pruebas/blob/main/cross512.png" />' + '</div>';
 
     }
     else{
         element.classList.remove("active");
         element.classList.add("disactive");
-        document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="C:/Users/Carla/Desktop/WEBS/Menu/menu512.png" />' + '</div>';
+        document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="https://github.com/mpatrivic/pruebas/blob/main/menu512.png" />' + '</div>';
 
     }
 
@@ -39,7 +39,7 @@ window.addEventListener("resize", function(){
         if (element.classList == "active"){
             element.classList.remove("active");
             element.classList.add("disactive");
-            document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="C:/Users/Carla/Desktop/WEBS/Menu/menu512.png" />' + '</div>';
+            document.getElementById("menuMovil").innerHTML = '<div class="mostrarImgMenu">' + '<img src="https://github.com/mpatrivic/pruebas/blob/main/menu512.png" />' + '</div>';
 
         }
     }
